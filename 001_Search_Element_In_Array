@@ -1,0 +1,22 @@
+class Solution{
+    public:
+    int search(int arr[], int N, int X)
+    {
+    int i=0;
+    while(i<N){
+        if(arr[i]==X){
+            break;
+        }
+        
+        else{
+            i++;
+        }
+    }   
+    if(i<N){
+        return i;
+    }   
+    else{
+        return -1;
+    }
+    }
+};
